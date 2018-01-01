@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Main StyleSheet is here-->
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+     
+    <!--Materialize StyleSheet is here-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+    <!--jQuery is here-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script> 
+
+    <!--Main JS script-->
+    <script src="twitch_Assignment.js"></script>
+    <title>Twitcher</title>
+</head>
+<body>
+  <div class="restrictSize">
+   <div class="card card_color">
+      <div class="card-content">
+        <img src="https://www.twitch.tv/p/assets/uploads/twitch_474x356.png" style="width:410px;height:300px;">
+      </div>
+      <div class="card-tabs">
+        <ul class="tabs tabs-fixed-width">
+          <li class="tab"><a class="active" href="#allTab">All</a></li>
+          <li class="tab"><a href="#onlineTab">Online</a></li>
+          <li class="tab"><a href="#offlineTab">offline</a></li>
+        </ul>
+      </div>
+      <div class="card-content grey lighten-4">
+        <!--This is where all the contant will be visible-->
+        <div id="allTab">
+            
+        </div>
+        <!--This is where only the people that are online will be visible-->
+        <div id="onlineTab">
+        </div>
+        <!--This is where only the people that are offline will be visible-->
+        <div id="offlineTab">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
